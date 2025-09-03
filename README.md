@@ -6,6 +6,8 @@ Telefone: +55 (38) 99923-9610
 LinkedIn: linkedin.com/in/rodrigo-magalhães-b02628205
 GitHub: github.com/rodrovisk94
 
+cod Javascript:
+
 const { Builder, By, until } = require('selenium-webdriver');
 
 async function loginTest() {
