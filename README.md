@@ -1,2 +1,24 @@
-# Rodrigo-Magalh-es
-Read-me
+Portefólio de Rodrigo Magalhães
+Sobre Mim
+Olá! Eu sou Rodrigo Magalhães, um Analista de QA Junior em formação, 31 anos, residente em Ninheira, MG. Sou formado em Ciências Contábeis e concluí um bootcamp de Quality Assurance na TripleTen em 2025. Após 13 anos como Assistente Administrativo em prefeitura, onde aprimorei habilidades analíticas e de organização, estou em transição para tecnologia, com foco em testes de software e automação, incluindo o uso de JavaScript para testes automatizados. Sou fluente em espanhol, tenho inglês básico e estou motivado para contribuir em equipes ágeis.
+E-mail: rodrovisk@gmail.com
+Telefone: +55 (38) 99923-9610
+LinkedIn: linkedin.com/in/rodrigo-magalhães-b02628205
+GitHub: github.com/rodrovisk94
+
+const { Builder, By, until } = require('selenium-webdriver');
+
+async function loginTest() {
+    let driver = await new Builder().forBrowser('chrome').build();
+    try {
+        await driver.get('https://example.com/login');
+        await driver.findElement(By.id('username')).sendKeys('testuser');
+        await driver.findElement(By.id('password')).sendKeys('testpass');
+        await driver.findElement(By.id('login-btn')).click();
+        await driver.wait(until.elementLocated(By.id('welcome')), 5000);
+        console.log('Login bem-sucedido!');
+    } finally {
+        await driver.quit();
+    }
+}
+loginTest();
