@@ -28,3 +28,7 @@ async function loginTest() {
     }
 }
 loginTest();
+
+Skills: 
+Figma| Postman |Jira |VS Code| Cypress |Git |JavaScript| HTML5| CSS3| GitHub |Docker| k6 |Selenium |Jenkins
+
