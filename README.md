@@ -1,4 +1,5 @@
-# Hey �
+# Hey 
+
 🔹Rodrigo Magalhães' Portfolio
 About Me
 Hello! I'm Rodrigo Magalhães, a 31-year-old Junior QA Analyst in training, living in Ninheira, Minas Gerais - Brazil.
@@ -6,6 +7,7 @@ I have a degree in Accounting and completed a Quality Assurance bootcamp at Trip
 as an Administrative Assistant in a city hall, where I honed my analytical and organizational skills, I'm transitioning
 to technology, focusing on software testing and automation, including the use of JavaScript for automated testing.
 I'm fluent in Spanish, have basic English, and am motivated to contribute to agile teams.
+
 🔹E-mail: rodrovisk@gmail.com
 🔹Telefone: +55 (38) 99923-9610
 🔹LinkedIn: linkedin.com/in/rodrigo-magalhães-b02628205
@@ -30,8 +32,6 @@ async function loginTest() {
 }
 loginTest();
 
-Skills: 
-Figma| Postman |Jira |VS Code| Cypress |Git |JavaScript| HTML5| CSS3| GitHub |Docker| k6 |Selenium |Jenkins
 
 | Skills |
 |--|--|
@@ -46,4 +46,4 @@ Figma| Postman |Jira |VS Code| Cypress |Git |JavaScript| HTML5| CSS3| GitHub |Do
 | Docker | k6 |
 | Selenium | Jenkins |
 
-📍From Brazil to Word 
+📍From Brazil to Word.
